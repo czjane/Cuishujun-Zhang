@@ -45,7 +45,9 @@ body {
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   min-width: 0;
-  background: #fff;
+  background: #fff;          
+  border: 6px solid #000000;   
+  box-sizing: border-box; 
   max-width: 1000px;
   margin: 0 auto;
   box-shadow: 0 0 20px rgba(0,0,0,.06); 
@@ -64,6 +66,16 @@ body {
   margin-inline: auto;
   min-width: 0;
 }
+.site-header {
+  border-bottom: 6px solid #000;
+}
+
+.site-footer {
+  border-top: 6px solid #000;
+}
+    
+
+
 
 .site-header h1 {
   font-size: 4rem;
