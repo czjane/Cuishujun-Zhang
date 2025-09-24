@@ -1,6 +1,9 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { height: 100%; }
+html, body { 
+  height: 100%; 
+  overflow-x: hidden;
+}
 body {
   min-height: 100vh;
   background: #F2F2F2;      
@@ -36,20 +39,46 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 20vh 1fr 20vh;
+  grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  background: #F2F2F2;
+  min-width: 0;
+  background: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.06); 
 }
+
+
 .site-header, .site-footer {
   padding: var(--s3);
   border-block: 1px solid var(--border);
   background: var(--surface);
+  min-width: 0;
 }
 .site-main {
   padding: var(--s4) var(--s3);
   max-width: var(--measure);
   margin-inline: auto;
+  min-width: 0;
 }
+
+.site-header h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: "Impact", "Arial Black", sans-serif;
+
+  background-image: url("../img/header-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
 
 
 h1 { font-size: var(--step-3); line-height: 1.2; margin-bottom: var(--s2); color: var(--swift-green); }
@@ -108,7 +137,9 @@ a:hover, a:focus-visible {
   color: var(--muted);
   font-size: var(--step--1);
 }
-
+img { 
+  max-width: 100%; height: auto; display: block; 
+}
 
 .essay + .essay {
   margin-top: var(--s6);
@@ -119,3 +150,6 @@ a:hover, a:focus-visible {
 
 :focus-visible { outline: 2px solid var(--swift-orange); outline-offset: 2px; }
 img { display: block; }
+
+
+
