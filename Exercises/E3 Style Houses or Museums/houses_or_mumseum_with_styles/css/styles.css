@@ -6,7 +6,10 @@ html, body {
 }
 body {
   min-height: 100vh;
-  background: #F2F2F2;      
+  background-image: url("../img/main-bg.jpeg");
+  background-repeat: repeat;  
+  background-size: contain;     
+  background-position: right;  
   color: #141414;         
   line-height: 1.65;
   font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
@@ -77,8 +80,6 @@ body {
   background-clip: text;
   color: transparent;
 }
-
-
 
 
 h1 { font-size: var(--step-3); line-height: 1.2; margin-bottom: var(--s2); color: var(--swift-green); }
