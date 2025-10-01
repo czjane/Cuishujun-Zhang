@@ -152,11 +152,6 @@ footer .nextlink{margin-top:.25rem}
 .col figure{margin:0 0 .8rem}
 .col img{width:100%;height:auto;display:block;border-radius:.5rem}
 
-.selfies{display:none!important}
-@media(max-width:900px){
-  .cinema{grid-template-columns:1fr}
-  .col{height:auto;max-height:none}
-}
 
 .lightbox{
   display:none;position:fixed;inset:0;z-index:9999;
@@ -270,3 +265,96 @@ footer .nextlink{margin-top:.25rem}
 
 .envelope-card.nineteen89 h3,
 .envelope-card.nineteen89 blockquote{ font-family:"Nineteen89Font", Arial, sans-serif; }
+
+
+
+.home .home-links { gap: 1.2rem; }
+.home .big-link{
+  font-size: clamp(2.2rem, 1.2vw + 2rem, 2.8rem); 
+  padding: 1.1rem 1.4rem;                         
+  border-radius: 1rem;
+}
+
+.cinema .columns{
+  display: grid;
+  justify-content: center;         
+}
+.cinema .columns .col{
+  width: min(420px, 90vw);          
+  height: 78vh;                     
+  overflow-y: auto;
+}
+
+.cinema .columns .col figure{ margin: 0 0 1.2rem; }  
+.cinema .columns .col img{ border-radius: .6rem; }   
+
+.lightbox figure img{
+  max-height: 80vh;   
+  width: auto;      
+  height: auto;      
+  object-fit: contain;
+  margin: 0 auto;    
+}
+
+header, main, footer {
+  max-width: 900px;    
+  margin-inline: auto; 
+  padding-inline: 1.5rem;
+}
+
+main img, .envelope-card, .col, .collection-grid {
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+
+@keyframes sparkle {
+  0% { background-position: 0 0; }
+  100% { background-position: 200% 200%; }
+}
+
+header, footer, main {
+  background: linear-gradient(135deg,
+              #fff4f9 0%, #fcefff 25%, #f9fcff 50%, #fffdf4 75%, #fff4f9 100%);
+  background-size: 200% 200%;
+  border-radius: 12px;
+  padding-block: 2rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+main {
+  position: relative;
+  background: linear-gradient(135deg,
+              #f9fcff 0%, #fffdf4 40%, #fcefff 80%, #fff4f9 100%);
+  background-size: 300% 300%;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+main > * {
+  max-width: 850px;
+  margin-inline: auto;
+}
+
+body.gallery .cinema {
+  grid-template-columns: 1fr auto; 
+  justify-content: space-between;
+}
+body.gallery .columns {
+  justify-content: end;  
+}
+
+footer .closing , blockquote{
+    margin-bottom: 2rem;
+    color: #666;
+    font-family: 'Pinyon Script', cursive;
+}
+
+
+footer .closing cite {
+  font-size: 0.9rem;
+  color: #666;
+}
