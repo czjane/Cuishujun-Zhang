@@ -3,7 +3,7 @@ html,body{height:100%}
 html{scroll-behavior:smooth}
 body{
   margin:0; color:#141414; line-height:1.65;
-  font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,-apple-system,"Segoe UI",Arial,sans-serif;
   background:#F7F7F8;
 }
 :root{
@@ -357,4 +357,84 @@ footer .closing , blockquote{
 footer .closing cite {
   font-size: 0.9rem;
   color: #666;
+}
+
+.album-row .alb-lover::after{ font-family: "LoverFont", serif; }
+.album-row .alb-fearless::after{ font-family: "FearlessFont", serif; }
+.album-row .alb-folklore::after{ font-family: "FolkloreEvermoreFont", serif; }
+.album-row .alb-evermore::after{ font-family: "FolkloreEvermoreFont", serif; }
+.album-row .alb-midnights::after{ font-family: "MidnightsFont", sans-serif; }
+.album-row .alb-ttpd::after{ font-family: "TTPDFont", serif; }
+.album-row .alb-reputation::after{ font-family: "ReputationFont", sans-serif; }
+.album-row .alb-speaknow::after{ font-family: "SpeakNowFont", serif; }
+.album-row .alb-red::after{ font-family: "RedFont", serif; }
+.album-row .alb-1989::after{ font-family: "Nineteen89Font", sans-serif; }
+.album-row .alb-debut::after{ font-family: "DebutFont", serif; }
+
+.emoji-cloud{
+  max-width: 1000px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  flex-wrap: nowrap;          
+  justify-content: center;   
+  align-items: center;
+  gap: 1.4rem;               
+  overflow-x: auto;           
+  -webkit-overflow-scrolling: touch;
+  padding-block: .25rem;
+}
+
+.emoji-cloud .emoji{
+  font-size: clamp(2.2rem, 3vw, 2.8rem);
+  line-height: 1;
+  text-decoration: none;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,.08));
+  transition: transform .15s ease, filter .15s ease;
+}
+.emoji-cloud .emoji:hover,
+.emoji-cloud .emoji:focus-visible{
+  transform: translateY(-3px) scale(1.06);
+  outline: none;
+}
+
+.album-row{
+  max-width: 1000px;
+  margin: 3rem auto 0;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.album-row .album{
+  font-size: clamp(1rem, 1.4vw, 1.6rem);
+  position: relative;
+  cursor: pointer;
+  transition: transform .15s ease;
+  text-decoration: none;
+}
+.album-row .album:hover{
+  transform: scale(1.15);
+}
+
+.album-row .album::after{
+  content: attr(data-title);
+  position: absolute;
+  bottom: 130%;                 
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 115, 199, 0.85);
+  color: #fff;
+  font-size: 0.95rem;           
+  white-space: nowrap;
+  padding: .3rem .6rem;
+  border-radius: .4rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+
+.album-row .album:hover::after{
+  opacity: 1;
+  transform: translateX(-50%) translateY(-3px);
 }
