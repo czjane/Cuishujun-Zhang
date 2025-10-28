@@ -1,0 +1,234 @@
+
+:root{
+  --bg:#ffffff; 
+  --text:#1b1f2a; 
+  --card:#f6f8fc; 
+  --ring:#e4e8f0; 
+  --focus:#8b5cf6;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{
+  margin:0; 
+  line-height:1.6; 
+  background:var(--bg); 
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji";
+}
+a{color:inherit}
+
+
+header.site{
+  position:sticky;
+  top:0;
+  z-index:10;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:.75rem;
+  padding:1rem;
+  border-bottom:1px solid color-mix(in srgb,var(--ring),transparent 55%);
+  background:color-mix(in srgb,var(--bg) 88%,transparent)
+}
+
+.site-title{
+  font-weight:800;
+  font-size:clamp(1.2rem,1.3vw + .9rem,1.9rem)
+}
+main{
+  max-width:960px;
+  margin:0 auto;
+  padding:1.25rem 1rem 3rem
+}
+.card{
+  background:var(--card);
+  border:1px solid color-mix(in srgb,var(--ring),transparent 25%);
+  border-radius:.9rem;
+  padding:1rem}
+button,.btn{
+  appearance:none;
+  border:1px solid color-mix(in srgb,var(--ring),transparent 30%);
+  background:var(--card);
+  color:inherit;
+  padding:.5rem .85rem;
+  border-radius:999px;
+  cursor:pointer;
+  transition:transform .18s ease,background .18s ease,border-color .18s ease}
+
+
+button:hover,.btn:hover{
+  transform:translateY(-2px)
+}
+
+button:focus-visible,.btn:focus-visible{
+  outline:3px solid var(--focus);
+  outline-offset:2px
+}
+.prose h1{
+  margin:.2em 0 .5em;
+  line-height:1.2;
+  letter-spacing:.2px;
+  font-weight:800;
+  font-size:clamp(1.6rem,1.1vw + 1.2rem,2.2rem)
+}
+.prose h1.big{
+  font-size:clamp(2rem,2vw + 1.5rem,3rem); 
+  transition: .3s
+}
+.muted{
+  opacity:.75
+}
+
+
+
+body.mode-text{
+  background:#0e1016;
+  color:#e8eaf2
+}
+body.mode-text .card{
+  background:#171b24;
+  border-color:color-mix(in srgb,#2a3142,transparent 25%)
+}
+body.mode-text header.site{
+  background:color-mix(in srgb,#0e1016 88%,transparent);
+  border-bottom-color:color-mix(in srgb,#2a3142,transparent 60%)
+}
+
+
+.emoji-belt{
+  --emoji:28px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.6rem;
+  align-items:center;
+  justify-content:center;
+  padding:.6rem 0
+}
+.emoji-belt .item{
+  display:inline-grid;
+  grid-auto-flow:row;
+  place-items:center;
+  min-width:calc(var(--emoji)*1.6);
+  min-height:calc(var(--emoji)*1.6);
+  text-decoration:none;
+  border-radius:.7rem;
+  background:var(--card);
+  border:1px solid color-mix(in srgb,#2a3142,transparent 25%);
+  transition:transform .18s ease,background .18s ease,border-color .18s ease,color .18s ease;padding:.2rem .5rem
+}
+
+
+.emoji-belt .item:hover,.emoji-belt .item:focus-visible{
+  transform:translateY(-3px);
+  outline:3px solid var(--focus)
+}
+.emoji-belt .g{
+  font-size:var(--emoji);
+  line-height:1
+}
+.emoji-belt .t{
+  font-size:.95rem;
+  line-height:1.1;
+  margin-top:.2rem
+}
+
+.emoji-belt .t{
+  display:none
+}
+.emoji-belt.mode-text .g{
+  display:none
+}
+.emoji-belt.mode-text .t{
+  display:block
+}
+
+
+
+.emoji-belt .lover     {
+  background:#fff4f6;
+  border-color:#f7a8b8
+}
+.emoji-belt .lover:hover,.emoji-belt .lover:focus-visible{
+  background:#ffdbe4
+}
+.emoji-belt .folklore  {
+  background:#f8f8f8;
+  border-color:#bcbcbc
+}
+.emoji-belt .folklore:hover,.emoji-belt .folklore:focus-visible{
+  background:#e4e4e4
+}
+.emoji-belt .evermore  {
+  background:#fcf6ec;
+  border-color:#d9a25f
+}
+.emoji-belt .evermore:hover,.emoji-belt .evermore:focus-visible{
+  background:#f1e1c2
+}
+.emoji-belt .midnights {
+  background:#eef0fa;
+  border-color:#5e6cab
+}
+.emoji-belt .midnights:hover,.emoji-belt .midnights:focus-visible{
+  background:#dce1f3
+}
+.emoji-belt .ttpd      {
+  background:#f2f2f2;
+  border-color:#444444
+}
+.emoji-belt .ttpd:hover,.emoji-belt .ttpd:focus-visible{
+  background:#d6d6d6
+}
+
+
+body.mode-text .emoji-belt .lover     {background:#3a1e24;color:#f7a8b8;border-color:#f7a8b8}
+body.mode-text .emoji-belt .folklore  {background:#2b2b2b;color:#bcbcbc;border-color:#bcbcbc}
+body.mode-text .emoji-belt .evermore  {background:#3b2a18;color:#d9a25f;border-color:#d9a25f}
+body.mode-text .emoji-belt .midnights {background:#1c2038;color:#5e6cab;border-color:#5e6cab}
+body.mode-text .emoji-belt .ttpd      {background:#1a1a1a;color:#444444;border-color:#444444}
+
+
+
+.entry-lover    {border-top:4px solid #f7a8b8;background:#fff4f6}
+.entry-lover h1 {color:#f26b9a}
+.entry-folklore {border-top:4px solid #bcbcbc;background:#f8f8f8}
+.entry-folklore h1{color:#6d6d6d}
+.entry-evermore {border-top:4px solid #d9a25f;background:#fcf6ec}
+.entry-evermore h1{color:#b1742a}
+.entry-midnights{border-top:4px solid #5e6cab;background:#eef0fa}
+.entry-midnights h1{color:#38488a}
+.entry-ttpd     {border-top:4px solid #444444;background:#f2f2f2}
+.entry-ttpd h1  {color:#1f1f1f}
+
+.info-line{margin:.25rem 0 0; text-align:center; font-size:.95rem; opacity:.75}
+
+body.mode-text .btn {
+  background: #e8eaf2;
+  color: #0e1016;
+  border-color: #e8eaf2;
+}
+body.mode-text .btn:hover,
+body.mode-text .btn:focus-visible {
+  background: #ffffff;
+  color: #000000;
+  transform: translateY(-2px);
+}
+
+
+body.mode-text .emoji-belt .ttpd {
+  background:#2b2b2b;
+  color:#c5c5c5;
+  border-color:#c5c5c5;
+}
+body.mode-text .emoji-belt .ttpd:hover,
+body.mode-text .emoji-belt .ttpd:focus-visible {
+  background:#3a3a3a;
+  color:#ffffff;
+}
+.entry-ttpd h1{ color:#c5c5c5 }
+
+a, a:visited, a:hover, a:focus, .btn, .item {
+  text-decoration: none;
+}
+footer{ 
+  color:var(--muted); text-align:center; padding:2rem 1rem 
+}
