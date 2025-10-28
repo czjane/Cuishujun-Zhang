@@ -16,6 +16,10 @@ body{
 }
 a{color:inherit}
 
+h1, h2, .prose h1, .prose h2 {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.5px; 
+}
 
 header.site{
   position:sticky;
