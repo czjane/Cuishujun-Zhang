@@ -1,8 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subway Tiles Catalog</title>
+  <meta name="description" content="A living catalog pulled from Google Sheets." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
 <body>
-  <div class="container">
-    <section class="first"></section>
-    <section class="second"></section>
-    <section class="third"></section>
-    <section class="fourth"></section>
-  </div>
+  <header class="top">
+    <h1>Subway Tiles Catalog</h1>
+    <p class="sub">A living catalog of subway tile surfaces, driven by Google Sheets.</p>
+  </header>
+
+  <section class="controls">
+
+    <div id="filters" class="chips"></div>
+
+    <input
+      id="q"
+      type="search"
+      placeholder="Search station / line / description…"
+      aria-label="Search catalog"
+    />
+  </section>
+
+  <main id="grid" class="grid" aria-label="Catalog items"></main>
+
+  <footer class="foot">
+    <div>Project 3 · Living Catalog</div>
+    <div>Showing <b id="count">0</b> items · Updated <span id="updated">—</span></div>
+    <div class="small">Data source: Google Sheets · Designer: Jane</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+</html>
