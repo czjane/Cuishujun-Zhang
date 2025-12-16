@@ -1,5 +1,6 @@
 const SHEET_GVIZ_URL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2WNYAgf0_AMy1fco5VEQGg1k-wec0YcXOO50ERCxCaFM4K8Gm38gOzWsbUBkz71j1VfIafXi8VmiX/gviz/tq?sheet=Sheet1&tqx=out:json";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2WNYAgf0_AMy1fco5VEQGg1k-wec0YcXOO50ERCxCaFM4K8Gm38gOzWsbUBkz71j1VfIafXi8VmiX/gviz/tq?gid=0&tqx=out:json";
+
 
 const grid = document.getElementById("grid");
 const filtersEl = document.getElementById("filters");
@@ -106,13 +107,15 @@ fetch(SHEET_GVIZ_URL)
     const rows = parseGviz(text);
 
  
+    // Normalize common header-name variants so small typos or different casing won't break the UI.
     items = rows.map(r => ({
-      id: r.id,
-      image: r.image,
-      category: r.category,       
-      line: r.Survices,           
-      station: r.Station,         
-      description: r.description || ""
+      id: r.id || r.ID || "",
+      image: r.image || r.Image || "",
+      category: r.category || r.Category || "",
+      // Accept 'Survices' (typo), 'Services', 'Line', or 'line'
+      line: r.Survices || r.Services || r.Line || r.line || "",
+      station: r.Station || r.station || r.Name || "",
+      description: r.description || r.Description || ""
     }));
 
     
@@ -126,7 +129,4 @@ fetch(SHEET_GVIZ_URL)
   .catch(err => {
     console.error(err);
     grid.innerHTML = `
-      <p style="color:#b0b0b0">
-        Could not load sheet. Check: Publish-to-web is public, and sheet tab name matches "Sheet1".
-      </p>`;
   });
