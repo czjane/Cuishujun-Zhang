@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/169th_Street_-_IND_Queens_Blvd%3B_QBPL_sign_over_Mosaic.jpg/2560px-169th_Street_-_IND_Queens_Blvd%3B_QBPL_sign_over_Mosaic.jpg",
+    "category": "red",
+    "line": "F",
+    "station": "169th Street station",
+    "description": null,
+    "title": "169th Street station"
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/IND_Parsons_Boulevard_Tile_Caption.jpg",
+    "category": "red",
+    "line": "E/F",
+    "station": "Parsons Boulevard station",
+    "description": null,
+    "title": "Parsons Boulevard station"
+  },
+  {
+    "id": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/IND_Eighth_168th_Street_Tile_Caption.jpg/2560px-IND_Eighth_168th_Street_Tile_Caption.jpg",
+    "category": "red",
+    "line": "A/C/1",
+    "station": "168th Street station",
+    "description": null,
+    "title": "168th Street station"
+  },
+  {
+    "id": 4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/IND_Concourse_182nd-183rd_Streets_Mosaic_Name_Tablet.jpg/2560px-IND_Concourse_182nd-183rd_Streets_Mosaic_Name_Tablet.jpg",
+    "category": "red",
+    "line": "B/D",
+    "station": "182nd–183rd Streets station",
+    "description": null,
+    "title": "182nd–183rd Streets station"
+  },
+  {
+    "id": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/IND_Utica_Avenue_Tile_Caption.jpg/2560px-IND_Utica_Avenue_Tile_Caption.jpg",
+    "category": "red",
+    "line": "A/C/1",
+    "station": "Utica Avenue station",
+    "description": null,
+    "title": "Utica Avenue station"
+  },
+  {
+    "id": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IND_Fulton_Ralph_Avenue_Northbound_Platform_Stair_and_Mosaic.jpg/2560px-IND_Fulton_Ralph_Avenue_Northbound_Platform_Stair_and_Mosaic.jpg",
+    "category": "red",
+    "line": "A/C",
+    "station": "Ralph Avenue station",
+    "description": null,
+    "title": "Ralph Avenue station"
+  },
+  {
+    "id": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/IND_Fulton_Rockaway_Avenue_Northbound_Directional_Mosaic.jpg/2560px-IND_Fulton_Rockaway_Avenue_Northbound_Directional_Mosaic.jpg",
+    "category": "red",
+    "line": "A/C",
+    "station": "Rockaway Avenue station",
+    "description": null,
+    "title": "Rockaway Avenue station"
+  },
+  {
+    "id": 8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/IND_Church_Avenue_Tile_Caption.jpg/2560px-IND_Church_Avenue_Tile_Caption.jpg",
+    "category": "red",
+    "line": "F/G",
+    "station": "Church Avenue station",
+    "description": null,
+    "title": "Church Avenue station"
+  },
+  {
+    "id": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fulton_Street_NYC_Subway_IND_8th_Avenue_Line_Tiles.jpg/2560px-Fulton_Street_NYC_Subway_IND_8th_Avenue_Line_Tiles.jpg",
+    "category": "PURPLE",
+    "line": "2025-02-03 00:00:00",
+    "station": "Fulton Street station",
+    "description": null,
+    "title": "Fulton Street station"
+  },
+  {
+    "id": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Briarwood%E2%80%93Van_Wyck_td_54.jpg/2560px-Briarwood%E2%80%93Van_Wyck_td_54.jpg",
+    "category": "yellow",
+    "line": "E/F",
+    "station": "Briarwood station",
+    "description": null,
+    "title": "Briarwood station"
+  },
+  {
+    "id": 11,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/IND_Eighth_145th_Street_Tile_Caption.jpg/2560px-IND_Eighth_145th_Street_Tile_Caption.jpg",
+    "category": "yellow",
+    "line": "A/B/C/D",
+    "station": "145th Street station",
+    "description": null,
+    "title": "145th Street station"
+  },
+  {
+    "id": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Old_BMT_and_IND_Subway_Tile_at_34th_Street-Herald_Square_Station.jpg",
+    "category": "yellow",
+    "line": "B/D/F/M/N/Q/R/W",
+    "station": "34th Street–Herald Square station",
+    "description": null,
+    "title": "34th Street–Herald Square station"
+  },
+  {
+    "id": 13,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/IND_Concourse_155th_Street_Mosaic.jpg/2560px-IND_Concourse_155th_Street_Mosaic.jpg",
+    "category": "yellow",
+    "line": "B/D",
+    "station": "155th Street station",
+    "description": null,
+    "title": "155th Street station"
+  },
+  {
+    "id": 14,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/161st_Street_River_Avenue_Yankee_Stadium_ID.JPG",
+    "category": "yellow",
+    "line": "4/B/D",
+    "station": "161st Street–Yankee Stadium station",
+    "description": null,
+    "title": "161st Street–Yankee Stadium station"
+  },
+  {
+    "id": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/IND_Concourse_Line_-_East_167th_Street_Station.jpg",
+    "category": "yellow",
+    "line": "B/D",
+    "station": "167th Street station",
+    "description": null,
+    "title": "167th Street station"
+  },
+  {
+    "id": 16,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/IND_170th_Street_Mosaic.jpg/2560px-IND_170th_Street_Mosaic.jpg",
+    "category": "yellow",
+    "line": "B/D",
+    "station": "170th Street station",
+    "description": null,
+    "title": "170th Street station"
+  },
+  {
+    "id": 17,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/IND_Concourse_Line_-_East_174th_-_175th_Streets_Station.jpg",
+    "category": "yellow",
+    "line": "B/D",
+    "station": "174th–175th Streets station",
+    "description": null,
+    "title": "174th–175th Streets station"
+  },
+  {
+    "id": 18,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/IND_7th_Avenue_Tile_Caption.jpg/2560px-IND_7th_Avenue_Tile_Caption.jpg",
+    "category": "yellow",
+    "line": "F/G",
+    "station": "Seventh Avenue station",
+    "description": null,
+    "title": "Seventh Avenue station"
+  },
+  {
+    "id": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IND_15th_Street_Tile_Caption.jpg/2560px-IND_15th_Street_Tile_Caption.jpg",
+    "category": "yellow",
+    "line": "F/G",
+    "station": "15th Street–Prospect Park station",
+    "description": null,
+    "title": "15th Street–Prospect Park station"
+  },
+  {
+    "id": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/IND_Fulton_Nostrand_Avenue_Mosaic_Name_Tablet.jpg/2560px-IND_Fulton_Nostrand_Avenue_Mosaic_Name_Tablet.jpg",
+    "category": "yellow",
+    "line": "A/C",
+    "station": "Nostrand Avenue station",
+    "description": null,
+    "title": "Nostrand Avenue station"
+  },
+  {
+    "id": 21,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Broad_Street_BMT_008.JPG/2560px-Broad_Street_BMT_008.JPG",
+    "category": "yellow",
+    "line": "J/Z",
+    "station": "Broad Street station",
+    "description": null,
+    "title": "Broad Street station"
+  },
+  {
+    "id": 22,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/IND_Queens_Boulevard_75th_Avenue_Mosaic.jpg/2560px-IND_Queens_Boulevard_75th_Avenue_Mosaic.jpg",
+    "category": "green",
+    "line": "E/F",
+    "station": "75th Avenue station",
+    "description": null,
+    "title": "75th Avenue station"
+  },
+  {
+    "id": 23,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/IND_Queens_Boulevard_71st_Avenue_Tile_Caption.jpg",
+    "category": "green",
+    "line": "E/F/M/R",
+    "station": "Forest Hills–71st Avenue station",
+    "description": null,
+    "title": "Forest Hills–71st Avenue station"
+  },
+  {
+    "id": 24,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/23_St-6_Av_after_ESI_Dec_2018_30.jpg/2560px-23_St-6_Av_after_ESI_Dec_2018_30.jpg",
+    "category": null,
+    "line": "F/M",
+    "station": "23rd Street station",
+    "description": "Stationary Figures",
+    "title": "23rd Street station"
+  },
+  {
+    "id": 25,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/14th_Street_%283124534290%29.jpg/2560px-14th_Street_%283124534290%29.jpg",
+    "category": "green",
+    "line": "1/2/3/F/L/M",
+    "station": "14th Street/Sixth Avenue station",
+    "description": null,
+    "title": "14th Street/Sixth Avenue station"
+  },
+  {
+    "id": 26,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/IND_West_4th_Street_Tile_Caption.jpg/2560px-IND_West_4th_Street_Tile_Caption.jpg",
+    "category": "green",
+    "line": "A/B/C/D/E/F/M",
+    "station": "West Fourth Street–Washington Square station",
+    "description": null,
+    "title": "West Fourth Street–Washington Square station"
+  },
+  {
+    "id": 27,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/IND_Norwood-205th_Street_Tile_Caption.jpg",
+    "category": "green",
+    "line": "D",
+    "station": "Norwood–205th Street station",
+    "description": null,
+    "title": "Norwood–205th Street station"
+  },
+  {
+    "id": 28,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Court_Square_NYC_Subway_IND_Crosstown_Line_Tiles.jpg/2560px-Court_Square_NYC_Subway_IND_Crosstown_Line_Tiles.jpg",
+    "category": "green",
+    "line": "7/E/F/G",
+    "station": "Court Square–23rd Street station",
+    "description": null,
+    "title": "Court Square–23rd Street station"
+  },
+  {
+    "id": 29,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/IND_Crosstown_21st_Street-Van_Alst_Tile_Caption.jpg",
+    "category": "green",
+    "line": "G",
+    "station": "21st Street station",
+    "description": null,
+    "title": "21st Street station"
+  },
+  {
+    "id": 30,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/IND_Crosstown_Myrtle-Willoughby_Avenues_Mosaic.jpg/2560px-IND_Crosstown_Myrtle-Willoughby_Avenues_Mosaic.jpg",
+    "category": "green",
+    "line": "G",
+    "station": "Myrtle–Willoughby Avenues station",
+    "description": null,
+    "title": "Myrtle–Willoughby Avenues station"
+  },
+  {
+    "id": 31,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Clinton%E2%80%93Washington_Avenues_IND_Crosstown_1297.JPG/2560px-Clinton%E2%80%93Washington_Avenues_IND_Crosstown_1297.JPG",
+    "category": "green",
+    "line": "G",
+    "station": "Clinton–Washington Avenues station",
+    "description": null,
+    "title": "Clinton–Washington Avenues station"
+  },
+  {
+    "id": 32,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/IND_Crosstown_Fulton_Street_Mosaic_Name_Tablet.jpg/2560px-IND_Crosstown_Fulton_Street_Mosaic_Name_Tablet.jpg",
+    "category": "green",
+    "line": "G",
+    "station": "Fulton Street station",
+    "description": null,
+    "title": "Fulton Street station"
+  },
+  {
+    "id": 33,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/IND_Fulton_Clinton-Washington_Avenues_Tile_Captions.jpg/2560px-IND_Fulton_Clinton-Washington_Avenues_Tile_Captions.jpg",
+    "category": "green",
+    "line": "A/C",
+    "station": "Clinton–Washington Avenues station",
+    "description": null,
+    "title": "Clinton–Washington Avenues station"
+  },
+  {
+    "id": 34,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lorimer_Street_BMT_IMG_9156.JPG/2560px-Lorimer_Street_BMT_IMG_9156.JPG",
+    "category": "green",
+    "line": "G/L",
+    "station": "Metropolitan Avenue/Lorimer Street station",
+    "description": null,
+    "title": "Metropolitan Avenue/Lorimer Street station"
+  },
+  {
+    "id": 35,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/34_Street_IND_art_vc.jpg",
+    "category": "image",
+    "line": "A/C/E",
+    "station": "34th Street–Penn Station",
+    "description": "Detail of \"The Garden of Circus Delights\" mosaic beneath the platforms",
+    "title": "34th Street–Penn Station"
+  },
+  {
+    "id": 36,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Faith_Fate_Metropolitan_Avenue_vc.jpg",
+    "category": "image",
+    "line": "G/L",
+    "station": "Metropolitan Avenue/Lorimer Street station",
+    "description": "Artwork by Jackie Chang",
+    "title": "Metropolitan Avenue/Lorimer Street station"
+  },
+  {
+    "id": 37,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Underbelly_Project_vc.jpg/2560px-Underbelly_Project_vc.jpg",
+    "category": "image",
+    "line": "G",
+    "station": "Broadway station",
+    "description": "A mural by Addam Yekutieli at the unfinished station, part of \"the Underbelly Project\"",
+    "title": "Broadway station"
+  },
+  {
+    "id": 38,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/IND_Carroll_Street_Mosaic.jpg/960px-IND_Carroll_Street_Mosaic.jpg",
+    "category": "green",
+    "line": "F/G",
+    "station": "Carroll Street station",
+    "description": null,
+    "title": "Carroll Street station"
+  },
+  {
+    "id": 39,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/IND_Queens_Boulevard_67th_Avenue_Mosaic.jpg/500px-IND_Queens_Boulevard_67th_Avenue_Mosaic.jpg",
+    "category": "BLUE",
+    "line": "E/F/M/R",
+    "station": "67th Avenue station",
+    "description": null,
+    "title": "67th Avenue station"
+  },
+  {
+    "id": 40,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/IND_Queens_Boulevard_63rd_Drive_Mosaic.jpg/2560px-IND_Queens_Boulevard_63rd_Drive_Mosaic.jpg",
+    "category": "BLUE",
+    "line": "E/F/M/R",
+    "station": "63rd Drive–Rego Park station",
+    "description": null,
+    "title": "63rd Drive–Rego Park station"
+  },
+  {
+    "id": 41,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/IND_Queens_Boulevard_Grand_Avenue-Newton_Mosaic.jpg/2560px-IND_Queens_Boulevard_Grand_Avenue-Newton_Mosaic.jpg",
+    "category": "BLUE",
+    "line": "E/F/M/R",
+    "station": "Grand Avenue–Newtown station",
+    "description": null,
+    "title": "Grand Avenue–Newtown station"
+  },
+  {
+    "id": 42,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/IND_Elmhurst_Avenue_Tile_Caption.jpg",
+    "category": "BLUE",
+    "line": "E/F/M/R",
+    "station": "Elmhurst Avenue station",
+    "description": null,
+    "title": "Elmhurst Avenue station"
+  },
+  {
+    "id": 43,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Columbus_Circle_IRT_003.JPG/2560px-Columbus_Circle_IRT_003.JPG",
+    "category": "BLUE",
+    "line": "1/2/A/B/C/D",
+    "station": "59th Street–Columbus Circle station",
+    "description": null,
+    "title": "59th Street–Columbus Circle station"
+  },
+  {
+    "id": 44,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/81_Street_wall_vc.jpg",
+    "category": "image",
+    "line": "A/B/C",
+    "station": "81st Street–Museum of Natural History station",
+    "description": "Dinosaur artwork on the lower level wall",
+    "title": "81st Street–Museum of Natural History station"
+  },
+  {
+    "id": 45,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Spring_St_IND_td_%282018-11-05%29_03.jpg/2560px-Spring_St_IND_td_%282018-11-05%29_03.jpg",
+    "category": "BLUE",
+    "line": "A/C/E",
+    "station": "Spring Street station",
+    "description": null,
+    "title": "Spring Street station"
+  },
+  {
+    "id": 46,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Spring_Street_Mosaic.jpg/2560px-Spring_Street_Mosaic.jpg",
+    "category": null,
+    "line": "A/C/E",
+    "station": "Spring Street station",
+    "description": "Mosaic depicting the 14th Street–Union Square station's platform at the entrance to Spring Street station",
+    "title": "Spring Street station"
+  },
+  {
+    "id": 47,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/CanalStreetBirds.jpg/500px-CanalStreetBirds.jpg",
+    "category": "BLUE",
+    "line": "A/C/E",
+    "station": "Canal Street station",
+    "description": "Detail of \"A Gathering\" sculpture on mezzanine",
+    "title": "Canal Street station"
+  },
+  {
+    "id": 48,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Bleecker_Street_IRT_004.jpg/2560px-Bleecker_Street_IRT_004.jpg",
+    "category": "BLUE",
+    "line": "4/6/B/D/F/M",
+    "station": "Broadway–Lafayette Street/Bleecker Street station",
+    "description": null,
+    "title": "Broadway–Lafayette Street/Bleecker Street station"
+  },
+  {
+    "id": 49,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/IND_Fulton_Liberty_Avenue_Mosaic_Name_Tablet.jpg/2560px-IND_Fulton_Liberty_Avenue_Mosaic_Name_Tablet.jpg",
+    "category": "BLUE",
+    "line": "A/C",
+    "station": "Liberty Avenue station",
+    "description": null,
+    "title": "Liberty Avenue station"
+  },
+  {
+    "id": 50,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IND_Fulton_Shepherd_Avenue_Mosaic_Name_Tablet.jpg/2560px-IND_Fulton_Shepherd_Avenue_Mosaic_Name_Tablet.jpg",
+    "category": "BLUE",
+    "line": "A/C",
+    "station": "Shepherd Avenue station",
+    "description": null,
+    "title": "Shepherd Avenue station"
+  },
+  {
+    "id": 51,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/IND_Queens_Boulevard_65th_Street_Mosaic.jpg/2560px-IND_Queens_Boulevard_65th_Street_Mosaic.jpg",
+    "category": "PURPLE",
+    "line": "E/F/M/R",
+    "station": "65th Street station",
+    "description": null,
+    "title": "65th Street station"
+  },
+  {
+    "id": 52,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/IND_Queens_Boulevard_46th_Street_Mosaic.jpg/2560px-IND_Queens_Boulevard_46th_Street_Mosaic.jpg",
+    "category": "PURPLE",
+    "line": "E/F/M/R",
+    "station": "46th Street station",
+    "description": null,
+    "title": "46th Street station"
+  },
+  {
+    "id": 53,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/IND_Queens_Boulevard_Steinway_Street_Mosaic.jpg/500px-IND_Queens_Boulevard_Steinway_Street_Mosaic.jpg",
+    "category": "PURPLE",
+    "line": "E/F/M/R",
+    "station": "Steinway Street station",
+    "description": null,
+    "title": "Steinway Street station"
+  },
+  {
+    "id": 54,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/IND_Queens_Boulevard_Queens_Plaza_Tile_Caption.jpg/2560px-IND_Queens_Boulevard_Queens_Plaza_Tile_Caption.jpg",
+    "category": "PURPLE",
+    "line": "E/F/R",
+    "station": "Queens Plaza station",
+    "description": null,
+    "title": "Queens Plaza station"
+  },
+  {
+    "id": 55,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/42ART_marbles.jpg/2560px-42ART_marbles.jpg",
+    "category": "image",
+    "line": "A/C/E",
+    "station": "42nd Street–Port Authority Bus Terminal station",
+    "description": "Losing My Marbles mosaic",
+    "title": "42nd Street–Port Authority Bus Terminal station"
+  },
+  {
+    "id": 56,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/42ART_revelers.jpg/2560px-42ART_revelers.jpg",
+    "category": "image",
+    "line": "A/C/E",
+    "station": "42nd Street–Port Authority Bus Terminal station",
+    "description": "The Revelers and The Commuter's Lament",
+    "title": "42nd Street–Port Authority Bus Terminal station"
+  },
+  {
+    "id": 57,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Oculus_vc.jpg/2560px-Oculus_vc.jpg",
+    "category": "image",
+    "line": "2/3/A/C/E/N/R/W",
+    "station": "Chambers Street–World Trade Center/Park Place/Cortlandt Street station",
+    "description": "The eyes of \"Oculus\"",
+    "title": "Chambers Street–World Trade Center/Park Place/Cortlandt Street station"
+  },
+  {
+    "id": 58,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Tile_work_at_Cortlandt_Street_R_train_station.jpg/2560px-Tile_work_at_Cortlandt_Street_R_train_station.jpg",
+    "category": "PURPLE",
+    "line": "2/3/A/C/E/N/R/W",
+    "station": "Chambers Street–World Trade Center/Park Place/Cortlandt Street station",
+    "description": "Tile work on BMT platform includes ships of sail and diesel, the Twin Towers of the original World Trade Center, Lower Manhattan skyline, and the never realized Brooklyn-Battery Bridge.",
+    "title": "Chambers Street–World Trade Center/Park Place/Cortlandt Street station"
+  },
+  {
+    "id": 59,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/IND_High_Street_Tile_Caption.jpg",
+    "category": "PURPLE",
+    "line": "A/C",
+    "station": "High Street station",
+    "description": null,
+    "title": "High Street station"
+  },
+  {
+    "id": 60,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/IND_Fulton_Euclid_Avenue_Tile_Caption.jpg/2560px-IND_Fulton_Euclid_Avenue_Tile_Caption.jpg",
+    "category": "PURPLE",
+    "line": "A/C",
+    "station": "Euclid Avenue station",
+    "description": null,
+    "title": "Euclid Avenue station"
+  },
+  {
+    "id": 61,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/IND_Sixth_Delancey_Street_Mosaic.jpg/2560px-IND_Sixth_Delancey_Street_Mosaic.jpg",
+    "category": "PURPLE",
+    "line": null,
+    "station": null,
+    "description": null,
+    "title": null
+  },
+  {
+    "id": 62,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DelanceyEssexOrchard.jpg/2560px-DelanceyEssexOrchard.jpg",
+    "category": "image",
+    "line": "F",
+    "station": "Delancey Street/Essex Street station",
+    "description": "Delancey Orchard mosaic on the northbound platform",
+    "title": "Delancey Street/Essex Street station"
+  },
+  {
+    "id": 63,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/DelanceyEssexArtwork.jpg/2560px-DelanceyEssexArtwork.jpg",
+    "category": "image",
+    "line": "F",
+    "station": "Delancey Street/Essex Street station",
+    "description": "Shad Crossing mosaic on the southbound platform",
+    "title": "Delancey Street/Essex Street station"
+  },
+  {
+    "id": 64,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Essex_Street_BMT_9200.JPG/2560px-Essex_Street_BMT_9200.JPG",
+    "category": "PURPLE",
+    "line": "F",
+    "station": "Delancey Street/Essex Street station",
+    "description": null,
+    "title": "Delancey Street/Essex Street station"
+  },
+  {
+    "id": 65,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/IND_Sixth_East_Broadway_New_Tile_Trim_and_Caption.jpg/2560px-IND_Sixth_East_Broadway_New_Tile_Trim_and_Caption.jpg",
+    "category": "PURPLE",
+    "line": "F",
+    "station": "East Broadway station",
+    "description": null,
+    "title": "East Broadway station"
+  },
+  {
+    "id": 66,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/IND_Fordham_Road_Tile_Caption.jpg/2560px-IND_Fordham_Road_Tile_Caption.jpg",
+    "category": "PURPLE",
+    "line": "B/D",
+    "station": "Fordham Road station",
+    "description": null,
+    "title": "Fordham Road station"
+  },
+  {
+    "id": 67,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/190th_Street_IND_Eighth_Avenue_3.JPG/2560px-190th_Street_IND_Eighth_Avenue_3.JPG",
+    "category": "Color only on station plaque",
+    "line": "A",
+    "station": "190th Street station",
+    "description": null,
+    "title": "190th Street station"
+  },
+  {
+    "id": 68,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/IND_181st_Street_Mosaic_Name_Tablet.jpg",
+    "category": "Color only on station plaque",
+    "line": "A",
+    "station": "181st Street station",
+    "description": null,
+    "title": "181st Street station"
+  },
+  {
+    "id": 69,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/163_St-Amsterdam_Av_%2843142722030%29.jpg",
+    "category": "Color only on station plaque",
+    "line": "A/C",
+    "station": "63rd Street–Amsterdam Avenue station",
+    "description": null,
+    "title": "63rd Street–Amsterdam Avenue station"
+  },
+  {
+    "id": 70,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/155th_Street_-_Brooklyn_Bound_Platform.jpg/2560px-155th_Street_-_Brooklyn_Bound_Platform.jpg",
+    "category": "Color only on station plaque",
+    "line": "A/C",
+    "station": "155th Street station",
+    "description": null,
+    "title": "155th Street station"
+  },
+  {
+    "id": 71,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/IND_135th_Street_Mosaic_Name_Tablet.jpg/2560px-IND_135th_Street_Mosaic_Name_Tablet.jpg",
+    "category": "Color only on station plaque",
+    "line": "A/B/C",
+    "station": "135th Street station",
+    "description": null,
+    "title": "135th Street station"
+  },
+  {
+    "id": 72,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/IND_116th_Street_Mosaic_Name_Tablet.jpg/2560px-IND_116th_Street_Mosaic_Name_Tablet.jpg",
+    "category": "Color only on station plaque",
+    "line": "A/B/C",
+    "station": "116th Street station",
+    "description": null,
+    "title": "116th Street station"
+  },
+  {
+    "id": 73,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/NewYorkSubway_110thSt-CathedralParkwayStation.JPG",
+    "category": "Color only on station plaque",
+    "line": "A/B/C",
+    "station": "Cathedral Parkway–110th Street station",
+    "description": null,
+    "title": "Cathedral Parkway–110th Street station"
+  },
+  {
+    "id": 74,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/IND_96th_Street_Mosaic_Name_Tablet.jpg/2560px-IND_96th_Street_Mosaic_Name_Tablet.jpg",
+    "category": "Color only on station plaque",
+    "line": "A/B/C",
+    "station": "96th Street station",
+    "description": null,
+    "title": "96th Street station"
+  },
+  {
+    "id": 75,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/86th_Street_-_IND.jpg/2560px-86th_Street_-_IND.jpg",
+    "category": "Color only on station plaque",
+    "line": "A/B/C",
+    "station": "86th Street station",
+    "description": null,
+    "title": "86th Street station"
+  },
+  {
+    "id": 76,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/IND_Eighth_23rd_Street_Mosaic_Name_Tablet.jpg/2560px-IND_Eighth_23rd_Street_Mosaic_Name_Tablet.jpg",
+    "category": "Color only on station plaque",
+    "line": "A/C/E",
+    "station": "23rd Street station",
+    "description": null,
+    "title": "23rd Street station"
+  },
+  {
+    "id": 77,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Grand_Street_art_vc.jpg/2560px-Grand_Street_art_vc.jpg",
+    "category": "Stations not in the original IND with tiles",
+    "line": "B/D",
+    "station": "Grand Street station",
+    "description": null,
+    "title": "Grand Street station"
+  },
+  {
+    "id": 78,
+    "image": "https://hyperallergic.com/content/images/size/w2400/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/kiki-ft.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "he Long Island Railroad terminal",
+    "description": "Kiki Smith's “The Spring” (2022) is one of five mosaics spread throughout the Long Island Railroad terminal. (photo Valentina Di Liscia/Hyperallergic)",
+    "title": "he Long Island Railroad terminal"
+  },
+  {
+    "id": 79,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/img_6064-2.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "161 St-Yankee Stadium Station",
+    "description": "“Wall-Slide” (2002) by Vito Acconci (Acconci Studio) at 161 St-Yankee Stadium Station (photo Valentina Di Liscia/Hyperallergic)",
+    "title": "161 St-Yankee Stadium Station"
+  },
+  {
+    "id": 80,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/glenn-goldberg.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "East 149th Street station",
+    "description": "Glenn Goldberg's “Bronx River” (2023) mosaic at the East 149th Street station (photo Elaine Velie/Hyperallergic)",
+    "title": "East 149th Street station"
+  },
+  {
+    "id": 81,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/bearden.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "courtesy Metropolitan Transportation",
+    "description": "Romare Bearden, \"City of Glass\" (1993) (© the artist; photo by Rob Wilson, courtesy Metropolitan Transportation Authority Arts & Design)",
+    "title": "courtesy Metropolitan Transportation"
+  },
+  {
+    "id": 82,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/coney-island-baby.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "courtesy Metropolitan Transportation",
+    "description": "Robert Wilson, \"My Coney Island Baby\" (2004) (© the artist; photo by Rob Wilson, courtesy Metropolitan Transportation Authority Arts & Design)",
+    "title": "courtesy Metropolitan Transportation"
+  },
+  {
+    "id": 83,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/marcel.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Bedford Avenue station",
+    "description": "Marcel Dzama's \"No Less Than Everything Comes Together\" (2021) at Bedford Avenue station (photo Hakim Bishara/Hyperallergic)",
+    "title": "Bedford Avenue station"
+  },
+  {
+    "id": 84,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/woolfalk.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "courtesy Metropolitan Transportation",
+    "description": "Saya Woolfalk, \"Urban Garden Rail\" (2017) (© the artist; photo by Peter Pierce, courtesy Metropolitan Transportation Authority Arts & Design)",
+    "title": "courtesy Metropolitan Transportation"
+  },
+  {
+    "id": 85,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/kathy.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "First Avenue station",
+    "description": "Katherine Bradford's \"Queens of the Night\" (2021) is one of several glass mosaics dispersed throughout the First Avenue station. (photo Valentina Di Liscia/Hyperallergic)",
+    "title": "First Avenue station"
+  },
+  {
+    "id": 86,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/yoko-ono.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "upper Manhattan",
+    "description": "Yoko Ono's \"SKY\" (2018) sits below the famed Dakota building in upper Manhattan. (photo Elaine Velie/Hyperallergic)",
+    "title": "upper Manhattan"
+  },
+  {
+    "id": 87,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/cave.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Bryant Park station",
+    "description": "Nick Cave's “Each One, Every One, Equal All” (2021) mosaic at the Bryant Park station (photo Valentina Di Liscia/Hyperallergic)",
+    "title": "Bryant Park station"
+  },
+  {
+    "id": 88,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/bailey.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Hudson Yards station",
+    "description": "Xenobia Bailey's “Funktional Vibrations” (2015) at the Hudson Yards station (image via Wikimedia Commons)",
+    "title": "Hudson Yards station"
+  },
+  {
+    "id": 89,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/yayoi.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Grand Central station",
+    "description": "Yayoi Kusama's \"A Message of Love, Directly from My Heart unto the Universe (2022)\" can be found in the Madison Concourse of the Grand Central station. (photo Valentina Di Liscia/Hyperallergic)",
+    "title": "Grand Central station"
+  },
+  {
+    "id": 90,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/hadid.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "midtown subway terminal",
+    "description": "Diana Al Hadid’s “The Arches of Old Penn Station” (2019) is one of three permanent installations the artist has at the midtown subway terminal. (photo Taylor Michael/Hyperallergic)",
+    "title": "midtown subway terminal"
+  },
+  {
+    "id": 91,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/milton-glazer.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Lower Manhattan's Astor Place station",
+    "description": "Milton Glaser's “Untitled” (1986) can be found at Lower Manhattan's Astor Place station. (photo Elaine Velie/Hyperallergic)",
+    "title": "Lower Manhattan's Astor Place station"
+  },
+  {
+    "id": 92,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/maren-hassinger.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Central Park North (110 Street) station",
+    "description": "Maren Hassinger's \"Message from Malcolm\" (1998) blue and gold mosaics are dispersed throughout the Central Park North (110 Street) station. (photo Elaine Velie/Hyperallergic)",
+    "title": "Central Park North (110 Street) station"
+  },
+  {
+    "id": 93,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/roy.jpg",
+    "category": "image",
+    "line": "/",
+    "station": null,
+    "description": "Roy Lichtenstein's \"Times Square Mural\" (2002) is a colorful reflection on the artist's career, as well as an homage to the busy city center. (photo Valentina Di Liscia/Hyperallergic)",
+    "title": null
+  },
+  {
+    "id": 94,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/faith-ringgold.jpg",
+    "category": "image",
+    "line": "/",
+    "station": null,
+    "description": "Faith Ringgold’s “Flying Home: Harlem Heroes and Heroines (Downtown and Uptown)” (1996) honors the history of Harlem in this two-part whimsical mosaic. (photo Elaine Velie/Hyperallergic)",
+    "title": null
+  },
+  {
+    "id": 95,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/shin.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Lexington Avenue–63rd Street station",
+    "description": "Jean Shin's “Elevated” (2017) mosaics at the Lexington Avenue–63rd Street station are composed of white, blue, and black ceramic and glass tiling. (photo Allison Meier/Hyperallergic)",
+    "title": "Lexington Avenue–63rd Street station"
+  },
+  {
+    "id": 96,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/gibbons.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Astoria Boulevard station",
+    "description": "Jeffrey Gibson's public artwork at the Astoria Boulevard station includes cosmic allusions and a spectrum of bright colors. (photo Maya Pontone/Hyperallergic)",
+    "title": "Astoria Boulevard station"
+  },
+  {
+    "id": 97,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/morris.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "39th Avenue-Dutch Kills station",
+    "description": "Sarah Morris’s two-part mural “Hellion Equilibrium” (2018) can be found on the uptown and downtown train platforms at the 39th Avenue-Dutch Kills station. (photo Maya Pontone/Hyperallergic)",
+    "title": "39th Avenue-Dutch Kills station"
+  },
+  {
+    "id": 98,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/gilliam.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "courtesy Metropolitan Transportation",
+    "description": "Sam Gilliam, \"Jamaica Center Station Riders, Blue\" (1991) (© the artist; photo by Rob Wilson, courtesy Metropolitan Transportation Authority Arts & Design)",
+    "title": "courtesy Metropolitan Transportation"
+  },
+  {
+    "id": 99,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/court.jpg",
+    "category": "image",
+    "line": "/",
+    "station": "Court Street station",
+    "description": "Elizabeth Murray's vibrant \"Stream\" (2001) runs the stretch of a busy corridor at the Court Street station in Long Island City. (photo Maya Pontone/Hyperallergic)",
+    "title": "Court Street station"
+  },
+  {
+    "id": 100,
+    "image": "https://hyperallergic.com/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2024/01/dorp.jpg",
+    "category": "image",
+    "line": "/",
+    "station": null,
+    "description": "Keri Sheheen’s “Creeping On Where Time Has Been” (2023) is a nod to the borough’s rich history and natural landscape. (photo Rhea Nayyar/Hyperallergic)",
+    "title": null
+  }
+]
